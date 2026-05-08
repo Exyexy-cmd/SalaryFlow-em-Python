@@ -1,4 +1,3 @@
-# SalaryFlow-em-Python
 # SalaryFlow 💸
 
 Sistema desenvolvido em Python para cálculo salarial, reajustes automáticos, descontos obrigatórios e projeções financeiras anuais.
