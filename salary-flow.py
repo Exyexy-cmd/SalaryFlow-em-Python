@@ -60,30 +60,30 @@ def valor_ajuste(rea, sal_liquido):
 print("Adicionando valor do reajuste salarial!\n")
 if salario_liquido <= 1800.00:
     valor_reajuste = valor_ajuste(reajuste1, salario_liquido)
-    print(f"Seu salario anterior era de: {salario_bruto:.2f}, aplicamos o valor de 20% que é: {valor_reajuste:.2f}, e que somando fica: {reajuste1:.2f}\n")
+    print(f"Seu salario anterior era de: {salario_liquido:.2f}, aplicamos o valor de 20% que é: {valor_reajuste:.2f}, e que somando ao liquido fica: {reajuste1:.2f}\n")
 
 elif 1800.00 < salario_liquido <= 2700.00:
     valor_reajuste = valor_ajuste(reajuste2, salario_liquido)
-    print(f"Seu salario anterior era de: {salario_bruto:.2f}, aplicamos o valor de 15% que é: {valor_reajuste:.2f}, e que somando fica: {reajuste2:.2f}\n")
+    print(f"Seu salario anterior era de: {salario_liquido:.2f}, aplicamos o valor de 15% que é: {valor_reajuste:.2f}, e que somando ao liquido fica: {reajuste2:.2f}\n")
 
 elif 2700.00 < salario_liquido <= 5500.00:
     valor_reajuste = valor_ajuste(reajuste3, salario_liquido)
-    print(f"Seu salario anterior era de: {salario_bruto:.2f}, aplicamos o valor de 10% que é: {valor_reajuste:.2f}, e que somando fica: {reajuste3:.2f}\n")
+    print(f"Seu salario anterior era de: {salario_liquido:.2f}, aplicamos o valor de 10% que é: {valor_reajuste:.2f}, e que somando ao liquido fica: {reajuste3:.2f}\n")
 
 else:
     valor_reajuste = valor_ajuste(reajuste4, salario_liquido)
-    print(f"Seu salario anterior era de: {salario_liquido:.2f}, aplicamos o valor de 5% que é: {valor_reajuste:.2f}, e que somando fica: {reajuste4:.2f}\n")
+    print(f"Seu salario anterior era de: {salario_liquido:.2f}, aplicamos o valor de 5% que é: {valor_reajuste:.2f}, e que somando ao fica: {reajuste4:.2f}\n")
 
 
 #definindo faixa salarial
 if salario_liquido <= 2000.00:
-    print(f"Salario de: {salario_liquido:.2f}, salário na faixa A — isento de investimentos obrigatórios.\n")
+    print(f"Salário na faixa A — isento de investimentos obrigatórios.\n")
     faixa_salarial = "A"
 elif 2000.00 < salario_liquido <= 5000.00:
-    print(f"Salario de: {salario_liquido:.2f}, salário na faixa B — recomenda-se investir 10% do líquido.\n")
+    print(f"Salário na faixa B — recomenda-se investir 10% do líquido.\n")
     faixa_salarial = "B"
 else:
-    print(f"Salário de: {salario_liquido:.2f}, salário na faixa C — recomenda-se investir 20% do líquido.\n")
+    print(f"Salário na faixa C — recomenda-se investir 20% do líquido.\n")
     faixa_salarial = "C"
 
 #Calculando valor de investimento
