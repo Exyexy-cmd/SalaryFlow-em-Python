@@ -48,5 +48,5 @@ Sistema desenvolvido em Python para cálculo salarial, reajustes automáticos, d
 - Python 3
 
 │
-├── exerciciosnico.py
+├── salary-flow.py
 └── README.md
